@@ -42,7 +42,7 @@ The stack implements a modern containerized architecture where:
 
 ```bash
 # Clone repository
-git clone https://github.com/Mohameed-Magdy-Dewidar/fastapi-docker-stack.git
+git clone https://github.com/Mohamed-Magdy-Dewidar/Fastapi-Docker-Stack.git
 
 cd fastapi-docker-stack
 
