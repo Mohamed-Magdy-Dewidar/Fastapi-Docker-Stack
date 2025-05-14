@@ -57,6 +57,10 @@ bash# Root endpoint
 curl -v http://localhost/
 ![FastApi Message](images/FastApi_test.png)
 
+![FastApi Message](images/FastApi_test.png)
+
+
+
 bash# Redis connection
 curl -v http://localhost/redis
 
