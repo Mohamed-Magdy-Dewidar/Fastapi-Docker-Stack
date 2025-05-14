@@ -33,14 +33,8 @@ The stack implements a modern containerized architecture where:
 ## 📁 Project Structure
 
 ![Project Structure](images/Project_structure.png)
-.
-├── app/
-│   ├── main.py     # FastAPI entrypoint
-│   └── ...
-├── requirements.txt    # Python dependencies
-├── Dockerfile          # Docker build for FastAPI
-├── docker-compose.yml  # Multi-container setup
-└── README.md           # Documentation
+
+
 
 ## 🚀 Quick Start
 
