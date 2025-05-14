@@ -36,6 +36,42 @@ The stack implements a modern containerized architecture where:
 
 
 
+🧪 Testing Endpoints and Verification 
+
+API Endpoints
+bash# Root endpoint
+
+curl -v http://localhost/
+
+
+
+![FastApi Message](images/FastApi_test.png)
+
+bash# Redis connection
+curl -v http://localhost/redis
+
+
+
+![Redis Message](images/redis_test.png)
+
+bash# PostgreSQL connection
+curl -v http://localhost/postgres
+
+
+
+![Postgres Message](images/postgres_test.png)
+
+
+🔒 Security
+The application's Docker image has been scanned using Docker Scout:
+
+
+![Docker Scout Scanning result](ImageScans/project_web_alpine.png)
+
+
+
+The current scan shows only one high-severity vulnerability, making it relatively secure for most deployment scenarios.
+
 ## 🚀 Quick Start
 
 ### Clone and Launch
@@ -49,30 +85,4 @@ cd fastapi-docker-stack
 # Start all services
 docker-compose up --build
 
-🧪 Testing Endpoints
 
-API Endpoints
-bash# Root endpoint
-
-curl -v http://localhost/
-![FastApi Message](images/FastApi_test.png)
-
-![FastApi Message](images/FastApi_test.png)
-
-
-
-bash# Redis connection
-curl -v http://localhost/redis
-
-![Redis Message](images/redis_test.png)
-
-bash# PostgreSQL connection
-curl -v http://localhost/postgres
-![Postgres Message](images/postgres_test.png)
-
-
-🔒 Security
-The application's Docker image has been scanned using Docker Scout:
-![Docker Scout Scanning result](ImageScans/project_web_alpine.png)
-
-The current scan shows only one high-severity vulnerability, making it relatively secure for most deployment scenarios.
